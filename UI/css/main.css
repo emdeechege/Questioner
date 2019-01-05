@@ -10,7 +10,7 @@ body {
 }
 
 #hero {
-  background-image: url('/img/ash.jpg');
+  background-image: url('../img/ash.jpg');
   width: 100%;
   height: 880px;
   background-size: cover;

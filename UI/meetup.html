@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Home</title>
+  <title>Meetup</title>
   <link rel="stylesheet" href="./css/profile.css">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/meetup.css">
@@ -20,9 +20,9 @@
     </div>
   </div>
   <div class="nav-links">
-    <a href="/profile.html">Profile</a>
-    <a href="/signup.html">Sign up</a>
-    <a href="/login.html">Log In</a>
+    <a href="./profile.html">Profile</a>
+    <a href="./signup.html">Sign up</a>
+    <a href="./login.html">Log In</a>
   </div>
 </div>
 
@@ -39,9 +39,9 @@
               <p>Monday, January 7, 2019</p>
               <p>6:30 PM to 8:30 PM</p>
               <p><strong>Topic:</strong></p>
-              <p>Drug addiction in the family</p>
+              <p>Deploying web applications</p>
               <p>Hosted By: <em>Kijana Mzee</em></p>
-              <h3>Family</h3>
+              <h3>Technology</h3>
               <hr>
               <label class="button2" for="modal-2">Post Question</label>
               <input class="modal-state" id="modal-2" type="checkbox" />
@@ -52,7 +52,7 @@
                   <h2>Post your Question</h2>
                   <form>
                     <input type="text" name="name" placeholder="Title" required size="50"><br><br>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br><br>
+                    <textarea id="subject" name="subject" placeholder="Write something.." required style="height:200px"></textarea><br><br>
                     <input type="submit" value="Submit"><br><br>
                   </form>
                 </div>
@@ -63,59 +63,75 @@
         </div>
       </div>
       <div class="col-9">
-        <div id="top">
-          <h2>Top Questions Feed</h2>
-        </div>
-        <div class="card">
-          <div class="card-header"><a href="">Python Meetup</a></div>
-          <div class="card-main">
-            <div class="main-description">How can I do data scrapping using Python?</div>
-            <p>Posted by: Kijani</p>
-          </div>
-          <div class="card-footer">
-            <i class="far fa-thumbs-up" style="padding:8px;"></i> 100
-            <i class="far fa-thumbs-down" style="padding:8px;"></i> 5
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header"><a href="">Andela Meetup</a></div>
-          <div class="card-main">
-            <div class="main-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex ea commodo consequat. </div>
-            <p>Posted by: Kijani</p>
-          </div>
-          <div class="card-footer">
-            <i class="far fa-thumbs-up" style="padding:8px;"></i> 60
-            <i class="far fa-thumbs-down" style="padding:8px;"></i> 9
+        <h2 class="top">Top Questions</h2>
+        <div class="post">
+          <img src="./img/disc.jpg" class="post-object">
+          <div class="post-body">
+            <h4 class="post-desc">Gh-pages</h4>
+            <p>Why must we be super specific about the paths on Gh-pages while they work just fine in our local repositories? Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehend.orum.</p>
+            <small>Shared by: <strong>Kijana Mzee</strong>, Monday, January 7, 2019</small>
+            <div class="pl-4 my-2">
+              <p><strong>3</strong> comments</p>
+              <div class="d-flex flex-column">
+                <p class="float-right">
+                  <strong>Kijani Kibichi</strong> Static deployment, I guess....
+                </p>
+              </div>
+            </div>
+            <form id="sema">
+              <div class="form-group">
+                <input type="text" name="comment" maxlength="200" class="form-control" placeholder="Comment" title="" required id="id_comment" /><button class="btn" type="submit" name="button"> Comment</button></div>
+            </form>
+            <hr>
           </div>
         </div>
-        <div class="card">
-          <div class="card-header"><a href="">Funky Meetup</a></div>
-          <div class="card-main">
-            <div class="main-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.</div>
-            <p>Posted by: Kijani</p>
-          </div>
-          <div class="card-footer">
-            <i class="far fa-thumbs-up" style="padding:8px;"></i> 45
-            <i class="far fa-thumbs-down" style="padding:8px;"></i> 7
+        <div class="post">
+          <img src="./img/roundtable.png" class="post-object">
+          <div class="post-body">
+            <h4 class="post-desc">API deployment issues</h4>
+            <p>Why must we be super specific about the paths on Gh-pages while they work just fine in our local repositories? Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <small>Shared by: <strong>Keylah</strong>, Monday, January 7, 2019</small>
+            <div class="pl-4 my-2">
+              <p><strong>14</strong> comments</p>
+              <div class="d-flex flex-column">
+                <p class="float-right">
+                  <strong>NoeQual</strong> Drop me an email, will share some resources.
+                </p>
+              </div>
+            </div>
+            <form id="sema">
+              <div class="form-group">
+                <input type="text" name="comment" maxlength="200" class="form-control" placeholder="Comment" title="" required id="id_comment" /><button class="btn" type="submit" name="button"> Comment</button></div>
+            </form>
+            <hr>
           </div>
         </div>
-        <div class="card">
-          <div class="card-header"><a href="">Python Meetup</a></div>
-          <div class="card-main">
-            <div class="main-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-              explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt?</div>
-            <p>Posted by: Kijani</p>
-          </div>
-          <div class="card-footer">
-            <i class="far fa-thumbs-up" style="padding:8px;"></i> 4
-            <i class="far fa-thumbs-down" style="padding:8px;"></i> 3
+        <div class="post">
+          <img src="./img/profile.png" class="post-object">
+          <div class="post-body">
+            <h4 class="post-desc">Auth-tokens JWT</h4>
+            <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <small>Shared by: <strong>Kijana Mzee</strong>, Monday, January 7, 2019</small>
+            <div class="pl-4 my-2">
+              <p><strong>10</strong> comments</p>
+              <div class="d-flex flex-column">
+                <p class="float-right">
+                  <strong>Kijani Kibichi</strong> Static deployment, I guess....
+                </p>
+              </div>
+            </div>
+            <form id="sema">
+              <div class="form-group">
+                <input type="text" name="comment" maxlength="200" class="form-control" placeholder="Comment" title="" required id="id_comment" /><button class="btn" type="submit" name="button"> Comment</button></div>
+            </form>
+            <hr>
           </div>
         </div>
       </div>
-    </div>
 </body>
 
 </html>
