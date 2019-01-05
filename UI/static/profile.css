@@ -76,6 +76,14 @@ h1 {
   font-size: 3rem;
 }
 
+.circle {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  float: right;
+}
+
 .two {
   font-size: 1.5rem;
   padding: 5px;
@@ -97,4 +105,64 @@ grid-item {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.card {
+  width: 100%;
+  height: auto;
+  border: 1px solid #8fa7a7;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.card-header {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #bfdfdf;
+  padding: 5px 5px;
+  height: 30px;
+}
+
+.card-footer {
+  font-size: 20px;
+  background-color: #bfdfdf;
+  padding: 5px 5px;
+  height: 30px;
+  display: inline-flex;
+}
+
+.card-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 15px 0;
+}
+
+.main-description {
+  /* color: #D32F2F; */
+  font-size: 24px;
+  text-align: left;
+}
+
+div#fixed {
+  position: fixed;
+}
+
+div#top{
+  text-align: center;
+  }
+.col-3 {
+  width: 23%;
+  float: left;
+  margin-right: 1px;
+}
+
+.col-9 {
+  width: 73%;
+  float: right;
+  padding-right: 20px;
 }
