@@ -4,16 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Profile</title>
+  <title>Home</title>
   <link rel="stylesheet" href="./css/profile.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/meetup.css">
+
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
 <div class="nav">
   <div class="nav-header">
     <div class="nav-title">
-      <a href="/index.html">🆀🆄🅴🆂🆃🅸🅾🅽🅴🆁</a>
+      <a href="/">🆀🆄🅴🆂🆃🅸🅾🅽🅴🆁</a>
     </div>
   </div>
   <div class="nav-links">
@@ -25,36 +28,44 @@
 
 <body>
   <div class="container">
-    <grid-container>
-      <grid-item> <img src="./img/profile.png" alt="profile-photo" class="circle">
-      </grid-item>
-      <grid-1>
-        <h1>Kijana Mzee</h1>
-        <p class="two"><a href="">Create Profile</a></p>
-        <p class="two"><strong>10</strong> Questions</p>
-        <p class="two"><strong>2</strong> Answers</p>
-      </grid-1>
-
     </grid-container>
     <hr>
     <div class="row">
-      <div class="col-3" id="fixed">
-        <div class="card">
-          <div class="card-header">Your Meetups</div>
-          <div class="card-main">
+      <div class="col-3" id="fix">
+        <div class="panel">
+          <div class="panel-main">
+            <img src="./img/r.jpg" alt="">
             <div class="main-description">
-              <ul>
-                <li><a href="">Python Meetup</a></li>
-                <li><a href="">Andela Meetup</a></li>
-                <li><a href="">Funky Meetup</a></li>
-              </ul>
+              <p>Monday, January 7, 2019</p>
+              <p>6:30 PM to 8:30 PM</p>
+              <p><strong>Topic:</strong></p>
+              <p>Drug addiction in the family</p>
+              <p>Hosted By: <em>Kijana Mzee</em></p>
+              <h3>Family</h3>
+              <hr>
+              <label class="button2" for="modal-2">Post Question</label>
+              <input class="modal-state" id="modal-2" type="checkbox" />
+              <div class="modal">
+                <label class="modal__bg" for="modal-2"></label>
+                <div class="modal__inner">
+                  <label class="modal__close" for="modal-2"></label>
+                  <h2>Post your Question</h2>
+                  <form>
+                    <input type="text" name="name" placeholder="Title" required size="50"><br><br>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br><br>
+                    <input type="submit" value="Submit"><br><br>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
 
         </div>
       </div>
       <div class="col-9">
-        <div id="top"><h2>Top Questions Feed</h2></div>
+        <div id="top">
+          <h2>Top Questions Feed</h2>
+        </div>
         <div class="card">
           <div class="card-header"><a href="">Python Meetup</a></div>
           <div class="card-main">

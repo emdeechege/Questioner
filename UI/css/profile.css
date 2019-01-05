@@ -8,7 +8,7 @@ body {
 .nav {
   height: 50px;
   width: 100%;
-  background-color: #008081 !important; 
+  background-color: #008081 !important;
   position: relative;
   margin-bottom: 0px;
   position: fixed;
@@ -101,6 +101,7 @@ grid-container {
   grid-template-columns: 0.5fr 1fr;
   grid-auto-rows: 310px;
   grid-gap: 10px;
+  margin-top: 25px;
 }
 
 grid-item {
