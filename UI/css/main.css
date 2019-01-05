@@ -18,8 +18,8 @@ body {
 
 .center {
   position: absolute;
-  top: 40%;
-  padding-left: 350px;
+  top: 30%;
+  padding-left: 150px;
   font-size: 1.5rem;
   z-index: 100;
   color: teal;
