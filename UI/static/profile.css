@@ -1,54 +1,84 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
 
-div.gallery {
-  border: 1px solid #ccc;
+body {
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
+.nav {
+  height: 50px;
   width: 100%;
-  height: auto;
+  background-color: #008081;
+  position: relative;
 }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
+.nav>.nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
+.nav>.nav-header>.nav-title {
+  display: inline-block;
+  font-size: 22px;
   float: left;
-  width: 25%;
+  padding: 10px 10px 10px 10px;
 }
 
-@media only screen and (max-width: 700px) {
-  .responsive,.circle {
-    width: 50%;
-    margin: 6px 0;
+.nav>.nav-header>.nav-title a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav>.nav-links>a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav>.nav-links>a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width:600px) {
+  .nav>.nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
   }
 
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
+  .nav>.nav-links>a {
+    display: block;
     width: 100%;
   }
-
 }
 
-.circle {
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  display: flex;
-  float: right;
+hr {
+  border-top: 1px solid #008081;
+}
+
+li {
+  list-style: none;
+}
+
+p, h1, h4, h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.two {
+  font-size: 1.5rem;
+  padding: 5px;
 }
 
 .container {
