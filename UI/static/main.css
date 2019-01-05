@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
+
+body {
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#hero {
+  margin: 0px;
+}
+
+#hero {
+  background-image: url('/static/img/ash.jpg');
+  width: 100%;
+  height: 880px;
+  background-size: cover;
+}
+
+.center {
+  position: absolute;
+  top: 40%;
+  padding-left: 350px;
+  font-size: 1.5rem;
+  z-index: 100;
+  color: teal;
+  text-align: center;
+}
+
+.button1 {
+  color: black;
+  border: 1px solid #008081;
+  padding: 6px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 12px;
+}
+
+.button1:hover {
+  background-color: #008081;
+  color: white;
+}
+
+.button2 {
+  color: white;
+  background-color: green;
+  border: 1px solid #008081;
+  padding: 6px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 12px;
+}
+
+.button2:hover {
+  background-color: #008081;
+  color: black;
+}
+
+#categories {
+  padding: 20px;
+}
+
+#categories h3 {
+  margin-top: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.gallery {
+  border-radius: 25px;
+  border: 1px solid #008081;
+  padding: 20px;
+}
+
+.gallery:hover {
+  border: 1px solid #73AD21;
+  background-color: #008081;
+  display: block;
+}
+
+.gallery img {
+  width: 100%;
+  height: 300px;
+}
+
+.desc {
+  padding: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 16px 16px;
+  float: left;
+  width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.meets {
+  width: 300px;
+  height: 300px;
+}
+
+.cards {
+  width: 25%;
+  height: 350px;
+  */ border: 1px solid #8fa7a7;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  float: left;
+  padding: 16px 16px 60px;
+}
+
+.card-mains img {
+  width: 100%;
+  height: 300px;
+}
+
+.card-mains button {
+  font-size: 20px;
+  background-color: #bfdfdf;
+  padding: 5px 1px;
+  height: 42px;
+  display: inline;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.footer {
+  position: fixed;
+  height: 35px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #008081;
+  color: white;
+  text-align: center;
+  margin: 65px: padding:40px;
+}
+
+.gallery .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.gallery .btn:hover {
+  background-color: black;
+  color: white;
+}
