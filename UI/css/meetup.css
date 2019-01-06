@@ -11,7 +11,7 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  margin-bottom: 12px;
+  margin-bottom: 5px;
 }
 
 .panel-main {
@@ -19,22 +19,22 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  padding: 15px 0;
+  padding: 5px 0;
   }
 
 .panel-main img {
   width: 100%;
-  height: 300px;
+  height: 250px;
 }
 
 div#fix {
   position: fixed;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .main-description {
   /* text-align: center; */
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 /* [Object] Modal
  * =============================== */
@@ -143,6 +143,16 @@ textarea {
   resize: vertical;
 }
 
+#comment {
+  padding: 12px 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #008081;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  resize: vertical;
+}
 input[type=text] {
   width: 75%;
   padding: 12px 20px;
@@ -151,19 +161,19 @@ input[type=text] {
   border: 1px solid #008081;
   border-radius: 4px;
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 input[type=submit] {
   width: 40%;
   background-color: #4CAF50;
   color: white;
-  padding: 14px;
+  padding: 12px 12px;
   margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .post-object{
@@ -177,20 +187,28 @@ input[type=submit] {
   width: 10%;
   background-color: #4CAF50;
   color: white;
-  padding: 14px;
+  padding: 12px 12px;
   margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .post{
-  font-size: 18px;
+  font-size: 14px;
   }
+
 .top {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   text-decoration: underline;
   color: #008081;
+}
+
+.icon{
+  float: right;
+  padding:1px;
+  font-size: 16px;
+  text-decoration: none;
 }

@@ -8,6 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Profile</title>
   <link rel="stylesheet" href="./css/profile.css">
+  <link rel="stylesheet" href="./css/meetup.css">
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
 <div class="nav">
@@ -17,7 +18,7 @@
     </div>
   </div>
   <div class="nav-links">
-    <a href="./profile.html">Profile</a>
+    <a href="./profile.html"><i class="fas fa-cog"></i></a>
     <a href="./signup.html">Sign up</a>
     <a href="./login.html">Log In</a>
   </div>
@@ -29,10 +30,10 @@
       <grid-item> <img src="./img/profile.png" alt="profile-photo" class="circle">
       </grid-item>
       <grid-1>
-        <h1>Kijana Mzee</h1>
-        <p class="two"><a href="">Create Profile</a></p>
-        <p class="two"><strong>10</strong> Questions</p>
-        <p class="two"><strong>2</strong> Answers</p>
+        <h2>Kijana Mzee</h2>
+        <p>The best time to begin anything is NOW!</p>
+        <p class="two"><strong>10</strong> Questions  |
+        <strong>2</strong> Comments</p>
       </grid-1>
 
     </grid-container>
@@ -44,9 +45,9 @@
           <div class="card-main">
             <div class="main-description">
               <ul>
-                <li><a href="">Python Meetup</a></li>
-                <li><a href="">Andela Meetup</a></li>
-                <li><a href="">Funky Meetup</a></li>
+                <li><a href="./meetup.html">Python Meetup</a></li>
+                <li><a href="./meetup.html">Andela Meetup</a></li>
+                <li><a href="./meetup.html">Funky Meetup</a></li>
               </ul>
             </div>
           </div>
@@ -54,53 +55,63 @@
         </div>
       </div>
       <div class="col-9">
-        <div id="top"><h2>Top Questions Feed</h2></div>
-        <div class="card">
-          <div class="card-header"><a href="">Python Meetup</a></div>
-          <div class="card-main">
-            <div class="main-description">How can I do data scrapping using Python?</div>
-            <p>Posted by: Kijani</p>
-          </div>
-          <div class="card-footer">
-            <i class="far fa-thumbs-up" style="padding:8px;"></i> 100
-            <i class="far fa-thumbs-down" style="padding:8px;"></i> 5
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header"><a href="">Andela Meetup</a></div>
-          <div class="card-main">
-            <div class="main-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex ea commodo consequat. </div>
-            <p>Posted by: Kijani</p>
-          </div>
-          <div class="card-footer">
-            <i class="far fa-thumbs-up" style="padding:8px;"></i> 60
-            <i class="far fa-thumbs-down" style="padding:8px;"></i> 9
+        <h2 class="top">Top Questions</h2>
+        <div class="post">
+          <img src="./img/profile.png" class="post-object">
+          <div class="post-body">
+            <h4 class="post-desc">Gh-pages  | <small>Meetup: <strong>Python</strong></small></h4>
+            <p>Why must we be super specific about the paths on Gh-pages while they work just fine in our local repositories? Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehend.orum.</p>
+            <small>Shared by: <strong>Kijana Mzee</strong>, Monday, January 7, 2019</small>
+            <p class="icon">
+              <a href=""><i class="fas fa-arrow-circle-up"></i></a> 54
+              <a href=""><i class="fas fa-arrow-circle-down"></i></a> 8</p>
+            <div class="pl-4 my-2">
+              <p><strong>3</strong> comments</p>
+
+            </div>
+
+            <hr>
           </div>
         </div>
-        <div class="card">
-          <div class="card-header"><a href="">Funky Meetup</a></div>
-          <div class="card-main">
-            <div class="main-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.</div>
-            <p>Posted by: Kijani</p>
-          </div>
-          <div class="card-footer">
-            <i class="far fa-thumbs-up" style="padding:8px;"></i> 45
-            <i class="far fa-thumbs-down" style="padding:8px;"></i> 7
+        <div class="post">
+          <img src="./img/roundtable.png" class="post-object">
+          <div class="post-body">
+            <h4 class="post-desc">JWT Auth Tokens  | <small>Meetup: <strong>Andela</strong></small></h4>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <small>Shared by: <strong>Keylah</strong>, Monday, January 7, 2019</small>
+            <p class="icon">
+              <a href=""><i class="fas fa-arrow-circle-up"></i></a> 36
+              <a href=""><i class="fas fa-arrow-circle-down"></i></a> 5</p>
+            <div class="pl-4 my-2">
+              <p><strong>14</strong> comments</p>
+              <div class="d-flex flex-column">
+                <p class="float-right">
+                  <strong>NoeQual</strong> Drop me an email, will share some resources.
+                </p>
+              </div>
+            </div>
+
+            <hr>
           </div>
         </div>
-        <div class="card">
-          <div class="card-header"><a href="">Python Meetup</a></div>
-          <div class="card-main">
-            <div class="main-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-              explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt?</div>
-            <p>Posted by: Kijani</p>
-          </div>
-          <div class="card-footer">
-            <i class="far fa-thumbs-up" style="padding:8px;"></i> 4
-            <i class="far fa-thumbs-down" style="padding:8px;"></i> 3
+        <div class="post">
+          <img src="./img/profile.png" class="post-object">
+          <div class="post-body">
+            <h4 class="post-desc">Party Next Door | <small>Meetup: <strong>Funky</strong></small></h4>
+            <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <small>Shared by: <strong>Kijana Mzee</strong>, Monday, January 7, 2019</small>
+            <p class="icon">
+              <a href=""><i class="fas fa-arrow-circle-up"></i></a> 34
+              <a href=""><i class="fas fa-arrow-circle-down"></i></a> 3</p>
+            <div class="pl-4 my-2">
+              <p><strong>10</strong> comments</p>
+
+            </div>
+
+            <hr>
           </div>
         </div>
       </div>
