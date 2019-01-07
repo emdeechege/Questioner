@@ -35,14 +35,14 @@ Admins would like to:
 * Delete meetups
 * Update meetups.
 
-### Prerequisites
+## Prerequisites
 * GIT
 * Modern browser
 
-### Testing the application
+## Testing the application
 * In your terminal:
 
-        $ git clone [repo](https://github.com/emdeechege/Questioner/)
+        $ git clone https://github.com/emdeechege/Questioner/
         $ cd Questioner, UI
         $ Use browser to navigate
 
